@@ -25,7 +25,7 @@ const Login = () => {
       const res = await axios.post("http://localhost:8800/api/auth/login", credentials);
       dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
       
-      navigate("/")
+      navigate(-1)
     } catch (err) {
       dispatch({ type: "LOGIN_FAILURE", payload: err.response.data });
     }
