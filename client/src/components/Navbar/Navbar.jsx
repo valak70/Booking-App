@@ -20,7 +20,7 @@ const Navbar = () => {
                 <>
                     <div className="logged">
                         <span>{user.username}</span>
-                        <button onClick={handleClick}>log out</button>
+                        <div className="loggedBtn"><button onClick={handleClick}>log out</button></div>
                     </div>
                 </>) : (<div className="navItems">
                     <button className="navButton">Register</button>

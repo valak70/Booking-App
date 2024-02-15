@@ -17,7 +17,13 @@
   .logo{
     font-weight: 500;
   }
-  
+  .logged{
+    display: flex;
+    align-items: center;
+  }
+  .loggedBtn{
+    margin: 15px;
+  }
   .navButton{
     margin-left: 20px;
     border: none;
